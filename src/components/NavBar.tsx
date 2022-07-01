@@ -6,10 +6,10 @@ export const NavBar: FC = () => {
     <header>
       <div className="navbar navbar-dark bg-dark shadow-sm">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            Main
+          <Link className="navbar-brand text-decoration-underline" to="/">
+            Список книг
           </Link>
-          <Link className="navbar-brand" to="/new-book">
+          <Link className="navbar-brand text-decoration-underline" to="/new-book">
             Add book
           </Link>
         </div>
